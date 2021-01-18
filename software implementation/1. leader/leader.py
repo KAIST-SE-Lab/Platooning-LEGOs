@@ -37,7 +37,7 @@ PROPORTIONAL_GAIN = 0.4
 INTEGRAL_GAIN = 0.1
 DERIVATIVE_GAIN = 0.5
 
-# Intialize variables related to PID controller
+# Intialize variables related to PID controller.
 deviation = 0.0
 derivative = 0.0
 integral = 0.0
@@ -58,7 +58,7 @@ stopping = False
 
 data = DataLog('time', 'step', 'color', 'speed', 'distance', 'stop', 'deviation', 'integral', 'derivative')
 
-# Initialize Bluetooth client and mailboxes for message passing
+# Initialize Bluetooth client and mailboxes for message passing.
 client = BluetoothMailboxClient()
 mbox_id = NumericMailbox('id1', client)
 mbox_time = NumericMailbox('time1', client)
@@ -72,13 +72,13 @@ print('establishing connection...')
 client.connect(SERVER)
 print('ev3-2 connected!')
 
-# Wait until receive message from the negotiator
+# Wait until receive message from the negotiator.
 while True:
     msg_id = mbox_id.read()
     if msg_id != None:
         break
 
-# Start time
+# Start time.
 watch = StopWatch()
 watch.reset()
 
@@ -95,14 +95,14 @@ while True:
     # else:
     #     None
 
-    # Send messages to the negotiator
+    # Send messages to the negotiator.
     mbox_id.send(1)
     mbox_time.send(time)
     mbox_lane.send(step)
     mbox_speed.send(DRIVE_SPEED)
     mbox_distance.send(distance)
 
-    # While changing lane, change state if the white part is detected
+    # While changing lane, change state if the white part is detected. (step 1->2 and step 3->0)
     if step == 1:
         if color > 65 and time >= previousStateChangedTime+2000:
             integral = 0.0
@@ -186,6 +186,7 @@ while True:
         robot.stop()
 
     end_time = watch.time()
+    
     # print("step: "+str(step))
     # print("color: "+str(color))
     # print("speed: "+str(DRIVE_SPEED))
@@ -195,7 +196,7 @@ while True:
     # print("time: "+str(time))
     # print("time difference: "+str(end_time-time))
     
-    # Store data log
+    # Store data log.
     data.log(time, step, color, DRIVE_SPEED, distance, stopping, deviation, integral, derivative)
 
     # Keep time of each loop constant 100ms.
@@ -203,4 +204,4 @@ while True:
     if (end_time-time) < 100:
         wait_time = 100-(end_time-time)
     wait(wait_time)
-
+	
