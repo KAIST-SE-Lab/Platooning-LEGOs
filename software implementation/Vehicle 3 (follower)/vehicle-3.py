@@ -137,11 +137,13 @@ while True:
         stopping = False
         stopTime = time
 
-    # ...
+    # While changing lane and the absolute value of integral is larger than 100, 
+    # keep the normal speed.
+    # Based on distance, accelerate or keep the normal speed
     if step == 1 or step == 3 or abs(integral) > 100:
         DRIVE_SPEED = NORMAL_SPEED
     elif distance >= 300:
-        DRIVE_SPEED *= 1.05
+        DRIVE_SPEED = DRIVE_SPEED * 1.05
         if DRIVE_SPEED > MAX_SPEED:
             DRIVE_SPEED = MAX_SPEED
     else:
@@ -181,6 +183,8 @@ while True:
     else: 
         robot.stop()
     
+	end_time = watch.time()
+	
     # print("step: "+str(step))
     # print("color: "+str(color))
     # print("speed: "+str(DRIVE_SPEED))
@@ -197,7 +201,6 @@ while True:
     data.log(time, step, color, DRIVE_SPEED, distance, stopping, deviation, integral, derivative,
      front_id, front_time, front_lane, front_speed, front_distance)
 
-    end_time = watch.time()
     # Keep time of each loop constant 200ms.
     wait_time = 0
     if (end_time-time) < 200:
