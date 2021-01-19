@@ -117,12 +117,12 @@ while True:
     mbox2_distance.send(distance)
 
     # Read messages received from the front robot(leader).
-    msg1_id = mbox1_id.read()
-    msg1_time = mbox1_time.read()
-    msg1_lane = mbox1_lane.read()
-    msg1_speed = mbox1_speed.read()
-    msg1_distance = mbox1_distance.read()
-    # print("id: %d time: %d lane: %d speed: %d distance: %d"%(msg1_id, msg1_time, msg1_lane, msg1_speed, msg1_distance))
+    front_id = mbox1_id.read()
+    front_time = mbox1_time.read()
+    front_lane = mbox1_lane.read()
+    front_speed = mbox1_speed.read()
+    front_distance = mbox1_distance.read()
+    # print("id: %d time: %d lane: %d speed: %d distance: %d"%(front_id, front_time, front_lane, front_speed, front_distance))
     
     # Follow the front robot(leader) to change lane. (step 0->1 and step 2->3)
     # While changing lane, change state if the white part is detected. (step 1->2 and step 3->0)
@@ -228,7 +228,7 @@ while True:
 
     # Store data log
     data.log(time, step, color, DRIVE_SPEED, distance, stopping, deviation, integral, derivative,
-     msg1_id, msg1_time, msg1_lane, msg1_speed, msg1_distance)
+     front_id, front_time, front_lane, front_speed, front_distance)
 
     # Keep time of each loop constant 100ms.
     wait_time = 0
