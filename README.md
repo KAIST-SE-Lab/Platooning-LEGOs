@@ -15,8 +15,8 @@ An open physical examplar for engineering self-adaptive cyber-physical system-of
 - Creating and running programs: https://pybricks.github.io/ev3-micropython/startrun.html
 
 ### Robot building instruction
-- Build the EV3 veihicle: [here](/physical\simplementation/ev3-vehicle.pdf)
-- Attach ultrasonic sensor and color sensor: [ultrasonic sensor](/physical\simplementation/ev3-ultrasonic-sensor.pdf), [color sensor](/physical\simplementation/ev3-color-sensor.pdf)
+- Build the EV3 veihicle: [here](/physical%20implementation/ev3-vehicle.pdf)
+- Attach ultrasonic sensor and color sensor: [ultrasonic sensor](/physical%20implementation/ev3-ultrasonic-sensor.pdf), [color sensor](/physical%20implementation/ev3-color-sensor.pdf)
 
 ### Road environment setting
 
