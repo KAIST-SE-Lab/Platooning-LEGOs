@@ -192,7 +192,7 @@ while True:
         stopping = False
         stop_time = time
     
-	""" Speed Adaptation algorithm can be developed. """
+    """ Speed Adaptation algorithm can be developed. """
     # While changing lane and the absolute value of integral is larger than 100, 
     # keep the minimum speed.
     # Based on distance, increase or decrease speed.
@@ -225,7 +225,7 @@ while True:
         # Calculate the turn rate.
         turn_rate = (PROPORTIONAL_GAIN * deviation) + (INTEGRAL_GAIN * integral) + (DERIVATIVE_GAIN * derivative)
         
-		""" turn_rate can be modified. """
+        """ turn_rate can be modified. """
         # step 0: use the calculated turn_rate
         # step 1: robot is turning right
         # step 2: use the opposite calculated turn_rate
