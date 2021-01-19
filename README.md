@@ -22,7 +22,7 @@ An open physical examplar for engineering self-adaptive cyber-physical system-of
 
 ### Road environment setting
 - [Setting instruction](/physical%20implementation/road%20environment.pdf)
-![road environment](/image/road%20environment.png)
+<img src="/image/road%20environment.png"  width="500">
 
 ## 4. Preliminary for software implementation
 
