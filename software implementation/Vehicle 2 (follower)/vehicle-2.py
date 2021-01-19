@@ -108,14 +108,6 @@ while True:
     time = watch.time()
     color = line_sensor.reflection()
     distance = obstacle_sensor.distance()
-    # noise = random.randrange(-100,101)
-    # distance = distance + noise
-    # if distance < 0:
-    #     distance = 0
-    # elif distance > 2550:
-    #     distance = 2550
-    # else:
-    #     None
 
     # Send messages to the follower.
     mbox2_id.send(2)
@@ -131,13 +123,6 @@ while True:
     msg1_speed = mbox1_speed.read()
     msg1_distance = mbox1_distance.read()
     # print("id: %d time: %d lane: %d speed: %d distance: %d"%(msg1_id, msg1_time, msg1_lane, msg1_speed, msg1_distance))
-
-    # ...
-    front_lane = step
-    if msg1_lane == None:
-        front_lane = step
-    else:
-        front_lane = msg1_lane
     
     # Follow the front robot(leader) to change lane. (step 0->1 and step 2->3)
     # While changing lane, change state if the white part is detected. (step 1->2 and step 3->0)

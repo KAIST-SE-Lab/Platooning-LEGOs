@@ -86,14 +86,6 @@ while True:
     time = watch.time()
     color = line_sensor.reflection()
     distance = obstacle_sensor.distance()
-    # noise = random.randrange(-100, 101)
-    # distance = distance + noise
-    # if distance < 0:
-    #     distance = 0
-    # elif distance > 2550:
-    #     distance = 2550
-    # else:
-    #     None
 
     # Send messages to the negotiator.
     mbox_id.send(1)
