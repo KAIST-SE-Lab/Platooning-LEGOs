@@ -18,7 +18,7 @@ An open physical examplar for engineering self-adaptive cyber-physical system-of
 - Build the EV3 veihicle: [here](/physical%20implementation/ev3-vehicle.pdf)
 - Attach ultrasonic sensor and color sensor: [ultrasonic sensor](/physical%20implementation/ev3-ultrasonic-sensor.pdf), [color sensor](/physical%20implementation/ev3-color-sensor.pdf)
 
-![ev3 vehicle](/image/vehicle.jpg)
+![ev3 vehicle](/image/vehicle.png)
 
 ### Road environment setting
 - [Setting instruction](/physical%20implementation/road%20environment.pdf)
@@ -33,6 +33,7 @@ An open physical examplar for engineering self-adaptive cyber-physical system-of
 ## 5. Adaptation strategy development
 
 ## 6. DEMO video
+[![demo video](https://img.youtube.com/vi/w-DutVNBe3M/0.jpg)](https://www.youtube.com/watch?v=w-DutVNBe3M)
 
 ## 7. References
 - EV3 MicroPython tutorial: https://pybricks.github.io/ev3-micropython/index.html
