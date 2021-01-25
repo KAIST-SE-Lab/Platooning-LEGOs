@@ -16,7 +16,7 @@ An open physical examplar for engineering self-adaptive cyber-physical system-of
 
 ### Robot building instruction
 - Build the EV3 veihicle: [here](/physical%20implementation/ev3-vehicle.pdf)
-- Attach ultrasonic sensor and color sensor: [ultrasonic sensor](/physical%20implementation/ev3-ultrasonic-sensor.pdf), [color sensor](/physical%20implementation/ev3-color-sensor.pdf)
+- Attach sensors: [ultrasonic sensor](/physical%20implementation/ev3-ultrasonic-sensor.pdf), [color sensor](/physical%20implementation/ev3-color-sensor.pdf), and touch sensor (optional)
 
 <img src="/image/vehicle.png" width="750">
 
@@ -37,6 +37,7 @@ An open physical examplar for engineering self-adaptive cyber-physical system-of
 
 ## 7. References
 - EV3 MicroPython tutorial: https://pybricks.github.io/ev3-micropython/index.html
-- https://le-www-live-s.legocdn.com/sc/media/lessons/mindstorms-ev3/building-instructions/ev3-rem-driving-base-79bebfc16bd491186ea9c9069842155e.pdf
-- https://le-www-live-s.legocdn.com/sc/media/lessons/mindstorms-ev3/building-instructions/ev3-ultrasonic-sensor-driving-base-61ffdfa461aee2470b8ddbeab16e2070.pdf
-- https://le-www-live-s.legocdn.com/sc/media/lessons/mindstorms-ev3/building-instructions/ev3-rem-color-sensor-down-driving-base-d30ed30610c3d6647d56e17bc64cf6e2.pdf
+- Robot building instructions: 
+  - EV3 vehicle: https://le-www-live-s.legocdn.com/sc/media/lessons/mindstorms-ev3/building-instructions/ev3-rem-driving-base-79bebfc16bd491186ea9c9069842155e.pdf
+  - Ultrasonic sensor: https://le-www-live-s.legocdn.com/sc/media/lessons/mindstorms-ev3/building-instructions/ev3-ultrasonic-sensor-driving-base-61ffdfa461aee2470b8ddbeab16e2070.pdf
+  - Color sensor: https://le-www-live-s.legocdn.com/sc/media/lessons/mindstorms-ev3/building-instructions/ev3-rem-color-sensor-down-driving-base-d30ed30610c3d6647d56e17bc64cf6e2.pdf
