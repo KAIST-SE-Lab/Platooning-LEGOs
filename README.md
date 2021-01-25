@@ -27,8 +27,16 @@ An open physical examplar for engineering self-adaptive cyber-physical system-of
 ## 4. Preliminary for software implementation
 
 ### Bluetooth connection with laptop and EV3 brick
+- Turn on Bluetooth and make Bluetooth visible
+<img src="/image/bluetooth-on.png">
+
+- Pair one EV3 Brick to another EV3 Brick and laptop
+<img src="/image/bluetooth-pair.png">
+
+- Detailed instruction: https://pybricks.github.io/ev3-micropython/messaging.html
+
 ### Changing the EV3 brick name
-- instruction: https://pybricks.github.io/ev3-micropython/startlinux.html#changing-the-ev3-brick-name
+- Instruction: https://pybricks.github.io/ev3-micropython/startlinux.html#changing-the-ev3-brick-name
 
 ## 5. Adaptation strategy development
 
