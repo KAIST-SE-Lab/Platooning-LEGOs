@@ -169,7 +169,7 @@ while True:
             previousStateChangedTime = stopTime
 
     """ Safe distance and stopping time can be varied. """
-    """ If vehicle should not stop after detecting obstacle or front vehicle, """
+    """ If vehicle should not change lane after detecting obstacle or front vehicle, """
     """ the else section can be removed. """
     # If an obstable is detected, robot stops 1000ms and does lane change
     # Only when the robot is driving on the lane
