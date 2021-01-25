@@ -39,6 +39,9 @@ An open physical examplar for engineering self-adaptive cyber-physical system-of
 - Instruction: https://pybricks.github.io/ev3-micropython/startlinux.html#changing-the-ev3-brick-name
 
 ## 5. Adaptation strategy development
+Sample codes for three-vehicle platoon are provided. Template code is also offered to implement your own adaptation strategies. The sample codes and template are under the directory [software implementation](/software%20implementation).
+- Experiment results of sample code
+<img src="/image/experiment%20results.png" width="600">
 
 ## 6. DEMO video
 [<img src="/image/screenshot-video.PNG" width="600">](https://www.youtube.com/watch?v=w-DutVNBe3M)
