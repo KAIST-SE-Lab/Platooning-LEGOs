@@ -44,7 +44,7 @@ Sample codes for three-vehicle platoon are provided. Template code is also offer
 <img src="/image/experiment%20results.png" width="600">
 
 ## 6. DEMO video
-[<img src="/image/screenshot-video.PNG" width="600">](https://www.youtube.com/watch?v=w-DutVNBe3M)
+[<img src="/image/screenshot-video.PNG" width="600">](https://www.youtube.com/watch?v=tRSoTPq5EEI)
 
 ## 7. References
 - EV3 MicroPython tutorial: https://pybricks.github.io/ev3-micropython/index.html
