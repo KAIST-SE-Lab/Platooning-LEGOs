@@ -45,7 +45,7 @@ Sample codes for three-vehicle platoon are provided. Template code is also offer
   1. Create a new EV3 project for each vehicle
   2. Copy & paste sample codes for each vehicle
   3. Download the code to EV3 brick
-  4. Run the three vehicle on the road together
+  4. Run the three vehicles on the road together
 
 ## 6. Sample experiment results
 <p>
