@@ -7,7 +7,7 @@ An open physical examplar for engineering self-adaptive cyber-physical system-of
 - 3 LEGO EV3 bricks (https://education.lego.com/en-us/products/lego-mindstorms-education-ev3-core-set/5003400#lego-mindstorms-education-ev3)
 - 3 laptops with Visual Studio Code installed (https://code.visualstudio.com/Download)
 
-## 3. Environment setting
+## 3. Physical environment setting
 
 ### Basic EV3 brick setting
 - Installation: https://pybricks.github.io/ev3-micropython/startinstall.html
@@ -40,11 +40,21 @@ An open physical examplar for engineering self-adaptive cyber-physical system-of
 
 ## 5. Adaptation strategy development
 Sample codes for three-vehicle platoon are provided. Template code is also offered to implement your own adaptation strategies. The sample codes and template are under the directory [software implementation](/software%20implementation).
-- Experiment results of sample code
-<img src="/image/experiment%20results.png" width="600">
 
-## 6. DEMO video
-[<img src="/image/screenshot-video.PNG" width="600">](https://www.youtube.com/watch?v=tRSoTPq5EEI)
+- Install the sample codes
+  1. Create a new EV3 project for each vehicle
+  2. Copy & paste sample codes for each vehicle
+  3. Download the code to EV3 brick
+  4. Run the three vehicle on the road together
+
+## 6. Sample experiment results
+<p>
+  <img src="/image/experiment%20results.png" width="600"/>
+</p>
+
+- DEMO video
+
+[<img src="/image/screenshot-video.PNG" width="600"/>](https://www.youtube.com/watch?v=tRSoTPq5EEI)
 
 ## 7. References
 - EV3 MicroPython tutorial: https://pybricks.github.io/ev3-micropython/index.html
