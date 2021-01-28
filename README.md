@@ -1,7 +1,10 @@
 # Platooning-LEGOs
 
 ## 1. Description
-An open physical examplar for engineering self-adaptive cyber-physical system-of-systems
+An open physical exemplar for engineering self-adaptive cyber-physical system-of-systems
+
+- Overview of Platooning-LEGOs
+<img src="/image/overview.png" width="450">
 
 ## 2. Equipment Requirements
 - 3 LEGO EV3 bricks (https://education.lego.com/en-us/products/lego-mindstorms-education-ev3-core-set/5003400#lego-mindstorms-education-ev3)
