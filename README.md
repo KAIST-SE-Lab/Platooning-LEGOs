@@ -1,7 +1,8 @@
 # Platooning-LEGOs
 
 ## 1. Description
-An open physical exemplar for engineering self-adaptive cyber-physical system-of-systems
+An open physical exemplar for engineering self-adaptive cyber-physical systems-of-systems
+Overall description is given in our original paper (Yong-Jun Shin et.al. Platooning LEGOs: An open physical exemplar for engineering self-adaptive cyber-physical systems-of-systems, SEAMS 2021, under review)
 
 - Overview of Platooning-LEGOs
 <img src="/image/overview.png" width="450">
