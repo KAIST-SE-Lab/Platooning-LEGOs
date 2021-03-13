@@ -3,7 +3,7 @@
 ## 1. Description
 An open physical exemplar for engineering self-adaptive cyber-physical systems-of-systems
 
-Overall description is given in our original paper (Yong-Jun Shin et.al., Platooning LEGOs: An Open Physical Exemplar for Engineering Self-adaptive Cyber-Physical Systems-of-Systems, SEAMS 2021, accepted, yet published)
+Overall description is given in our original paper (Yong-Jun Shin et.al., Platooning LEGOs: An Open Physical Exemplar for Engineering Self-adaptive Cyber-Physical Systems-of-Systems, SEAMS 2021, Accepted, Yet published - Contact us if you want to see the original paper befor May 24.)
 
 - Overview of Platooning-LEGOs
 <img src="/image/overview.png" width="450">
@@ -67,3 +67,8 @@ Sample codes for three-vehicle platoon are provided. Template code is also offer
   - EV3 vehicle: https://le-www-live-s.legocdn.com/sc/media/lessons/mindstorms-ev3/building-instructions/ev3-rem-driving-base-79bebfc16bd491186ea9c9069842155e.pdf
   - Ultrasonic sensor: https://le-www-live-s.legocdn.com/sc/media/lessons/mindstorms-ev3/building-instructions/ev3-ultrasonic-sensor-driving-base-61ffdfa461aee2470b8ddbeab16e2070.pdf
   - Color sensor: https://le-www-live-s.legocdn.com/sc/media/lessons/mindstorms-ev3/building-instructions/ev3-rem-color-sensor-down-driving-base-d30ed30610c3d6647d56e17bc64cf6e2.pdf
+
+## 8. Contact
+- Yong-Jun Shin: yjshin@se.kaist.ac.kr
+- Lingjun Liu: riensha@se.kaist.ac.kr
+- Sangwon Hyun: swhyun@se.kaist.ac.kr
